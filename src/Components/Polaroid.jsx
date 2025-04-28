@@ -2,7 +2,7 @@ import React from "react";
 
 function Polaroid({ src, caption }) {
   return (
-    <div className="border-black border p-4 m-4 w-36 flex-shrink-0 bg-white">
+    <div className="border-black border p-4 mx-18 w-36 flex-shrink-0 bg-white shadow-xl/70">
       <img
         className="mt-4 border-black border object-cover"
         src={src}

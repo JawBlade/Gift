@@ -38,7 +38,7 @@ function ImageSlider() {
 
   return (
     <div
-      className="scroller"
+      className="scroller bg-red-400 p-2 h-90"
       data-speed="slow"
       data-direction="left"
       ref={scrollerRef}
