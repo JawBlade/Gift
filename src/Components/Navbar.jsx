@@ -13,11 +13,8 @@ const Navbar = () => {
       </div>
 
       {/* Center: Logo (centered on small screens, left on sm and up) */}
-      <div className="outline-4 flex justify-center sm:justify-center items-center">
+      <div className="outline-4 flex justify-center juatify-between sm:justify-start items-center">
         <img src={logo} alt="Logo" className="h-10 w-auto" />
-        <IoMdHeart className="h-10 w-10 text-red-500" />
-        <IoIosHeartEmpty className="h-10 w-10 text-gray-500" />
-        <div className="font-bodoni font-size-50">Eli</div>
       </div>
 
       {/* Center: Links for sm and up only */}
