@@ -8,6 +8,5 @@ import Navbar from "./Components/Navbar.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <ImageSlider />
   </StrictMode>
 );
